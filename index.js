@@ -5,9 +5,12 @@
  *
  *  Given an amount (in cents), write a function that returns    
  *  the minimum number of coins needed and specifies which coins.
- *                                                               
+ *
  *  To begin, we'll default to US coin denominations                       
  *  (pennies, nickels, dimes, and quarters).                     
+ *
+ *  Example:
+ *  For 27 cents: 5 coins are needed ([25, 1, 1])
  *
  *  NOTES & TIPS:
  *  - Please disable Co-Pilot or any AI autocomplete before starting.
@@ -40,7 +43,7 @@ function coinChange(amountCents, coins = US_COINS) {
 ****************/
 // amountCents = 33
 // coinChange(33);
-// console.log(`For ${amountCents} cents: ${numberOfCoins} needed (${coinsNeeded})`);
+// console.log(`For ${amountCents} cents: ${numberOfCoins} coins are needed (${coinsNeeded})`);
 
 /****************
  *
@@ -50,7 +53,7 @@ function coinChange(amountCents, coins = US_COINS) {
 ****************/
 // amountCents = 11
 // coinChange(11);
-// console.log(`For ${amountCents} cents: ${numberOfCoins} needed (${coinsNeeded})`);
+// console.log(`For ${amountCents} cents: ${numberOfCoins} coins are needed (${coinsNeeded})`);
 
 /****************
  *
@@ -60,4 +63,4 @@ function coinChange(amountCents, coins = US_COINS) {
 ****************/
 // amountCents = 11
 // coinChange(11, [9, 6, 5, 1]);
-// console.log(`For ${amountCents} cents: ${numberOfCoins} needed (${coinsNeeded})`);
+// console.log(`For ${amountCents} cents: ${numberOfCoins} coins are needed (${coinsNeeded})`);
